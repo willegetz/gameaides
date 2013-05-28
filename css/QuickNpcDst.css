@@ -3,22 +3,27 @@
   width:100%;
 }
 
-.stats, .weapons{
+.stats{
   float:left;
   width:25%;
 }
 
-.stats table, .weapons table{
+.weapons, .armour, .shield{
+  float:left;
+  width:100%;
+}
+
+.stats table, .weapons table, .armour table, .shield table{
   width:100%;
   border: 1px solid #000;
   background: #FFF;
 }
 
-.stats table tr{
+.stats table tr, .weapons table tr{
   width:100%
 }
 
-.stats table td{
+.stats table td, .weapons table th, .weapons table td, .armour table th, .armour table td, .shield table th, .shield table td{
   margin:0;
   padding: 4px 8px;
   border-bottom: 1px solid #B5B5B5;
@@ -28,7 +33,7 @@
   padding: 4px 0px 4px 8px;
 }
 
-.stats table td input{
+.stats table td input, .weapons table td input, .armour table td input, .shield table td input{
   width:100%;
 }
 
@@ -37,7 +42,7 @@
   width:70%;
 }
 
-.characterIdentification, .defenses, .baseAttack, .saves, .skillsAndFeats{
+.characterIdentification, .defenses, .baseAttack, .saves, .skillsAndFeats, .importantEquipment {
   float:left;
   width:100%;
 }
@@ -47,13 +52,18 @@
   width:20%;
 }
 
-.characterIdentification div input, .defenses div input, .skillsAndFeats div textarea {
+.skillsAndFeats div {
+  float:left;
+  width:30%;
+}
+
+.characterIdentification div input, .defenses div input, .baseAttack div input, .saves div input, .skillsAndFeats div textarea, .importantEquipment textarea {
   width:100%;
 }
 
-.skillsAndFeats div{
-  float:left;
-  width:30%;
+textarea{
+  resize:none;
+  height:150px;
 }
 
 /*
