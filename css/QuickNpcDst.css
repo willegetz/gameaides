@@ -1,0 +1,146 @@
+.notpk{
+  float:left;
+  width:100%;
+}
+
+.stats {
+  float:left;
+  width:25%;
+}
+
+.basicInfoSection{
+  float:right;
+  width:70%;
+}
+
+.characterIdentification, .defenses {
+  float:left;
+  width:100%;
+}
+
+.characterIdentification div, .defenses div {
+  float:left;
+  width:20%;
+}
+
+.characterIdentification div input, .defenses div input {
+  width:100%;
+}
+
+.attributesAndAbilities {
+  float:left;
+  width:100%;
+}
+
+.attributesSection {
+  float:left;
+  width:100%;
+}
+
+.babEtc {
+  float:left;
+  width:32%
+}
+
+.saves {
+  float:left;
+  width:25%;
+}
+
+.stats table, .babEtc table, .saves table, .weapons table, .armour table, .shield table {
+  width:100%;
+  border: 1px solid #000;
+  background: #FFF;
+}
+
+.stats table td, .babEtc table td, .saves table td, .weapons th, .weapons td, .armour th, .armour td, .shield th, .shield td {
+  margin: 0;
+  padding: 4px 10px;
+  border-bottom: 1px solid #B5B5B5;
+}
+
+.stats table tr, .babEtc table tr, .saves table tr, .weapons table tr, .armour table tr, .shield table tr {
+  width:100%;
+}
+
+.stats table tr td:first-child, .babEtc table tr td:first-child, .saves table tr td:first-child {
+  width:10%;
+  text-align:right;
+}
+
+.stats table td:nth-child(n+2){
+  width:45%;
+}
+
+.stats table td input, .babEtc table td input, .saves table td input, .weapons table td input, .armour table td input, .shield table td input {
+  width:100%;
+}
+
+.attributesAndAbilities textarea, .importantEquipment textarea {
+  resize:none;
+}
+
+.skillsAndFeats, .abilities {
+  margin:0;
+  float: left;
+  width:20%;
+  padding:8px 20px;
+}
+
+.skillsAndFeats textarea {
+  width:100%;
+  height:135px;
+}
+
+.abilities {
+  float:left;
+  width:30%;
+}
+
+.abilities textarea {
+  width:100%;
+  height:300px;
+}
+
+.weapons, .armour, .shield, .importantEquipment {
+  float:left;
+  width:100%;
+}
+
+.weapons table th, .weapons table td, .armour table th, .armour table td, .shield table th, .shield table td {
+  text-align:left;
+}
+
+.weapons table tr td:first-child, .armour table tr td:first-child, .shield table tr td:first-child {
+  width:30%;
+}
+
+.weapons table tr td:nth-child(2) {
+   width:8%;
+}
+
+.weapons table tr td:nth-child(6), .armour table tr td:nth-child(8) {
+  width:25%;
+}
+
+.shield table tr td:nth-child(6) {
+  width:40%;
+}
+
+.importantEquipment textarea {
+  width:100%;
+  height:150px;
+}
+
+.defenses:after, .skills span:after, .feats span:after, .abilities span:after, .abilities:after, .weapons:after, armour:after, .shields:after, importantEquipment span:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.clear{
+  clear:both;
+  height:0;
+}

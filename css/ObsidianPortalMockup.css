@@ -1,0 +1,45 @@
+body {
+  margin:0;
+  padding:30px;
+  font-size:small;
+  background: #202020;
+  line-height:1.5;
+  display:block;
+}
+
+#wrapper {
+  margin: 0 auto;
+  padding: 0;
+  width: 990px;
+  background-color: #EAEAEA;
+}
+
+#header{
+  line-height: 47px;
+  height: 47px;
+  width: 100%;
+  overflow: hidden;
+  background-color:#00E142;
+}
+
+#content{
+  background: #fff;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border: 1px solid #181818;
+  border-radius: 5px;
+}
+
+#secondary-column{
+  float: right;
+  min-height: 300px;
+  width: 225px;
+  margin-right: 10px;
+  background-color:#0094FF;
+}
+
+#main-column{
+  border: none;
+  margin: 0;
+  padding: 10px 246px 10px 10px;
+}
