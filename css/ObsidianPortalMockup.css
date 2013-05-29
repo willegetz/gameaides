@@ -14,7 +14,7 @@ body {
   background-color: #EAEAEA;
 }
 
-#header{
+#navBar{
   line-height: 47px;
   height: 47px;
   width: 100%;
@@ -32,7 +32,7 @@ body {
 
 #secondary-column{
   float: right;
-  min-height: 300px;
+  min-height: 1000px;
   width: 225px;
   margin-right: 10px;
   background-color:#0094FF;
@@ -42,6 +42,12 @@ body {
   border: none;
   margin: 0;
   padding: 10px 246px 10px 10px;
+}
+
+#campaign-header {
+  height:253px;
+  background-color:#FF6666;
+  margin-bottom:10px;
 }
 
 .clear{
